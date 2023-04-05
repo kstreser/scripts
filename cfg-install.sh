@@ -1,5 +1,5 @@
 #!/bin/bash                                                                     
-git clone --bare git@github.com:kstreser/cfg.git $HOME/.cfg                    
+git clone --bare https://github.com/kstreser/cfg.git $HOME/.cfg                    
                                                                                    
 function config {                                                               
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@                      
